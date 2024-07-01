@@ -42,17 +42,8 @@ dev = [
     "pytest >= 7.1",
 ]
 
-[project.urls]
-Homepage = "https://github.com/jdehning/jax2pytensor"
-"Bug Tracker" = "https://github.com/jdehning/jax2pytensor/issues"
-Discussions = "https://github.com/jdehning/jax2pytensor/discussions"
-Changelog = "https://github.com/jdehning/jax2pytensor/releases"
 
 
-[tool.pytest.ini_options]
-testpaths = [
-    "tests",
-]
 
 [tool.black]
 line-length = 88
@@ -88,9 +79,9 @@ convention = "numpy"
 no_strict_optional = false
 
 [tool.setuptools]
-packages = ["jax2pytensor"]
+packages = ["covid19_data_retrieval"]
 
 [tool.setuptools_scm]
-write_to = "jax2pytensor/_version.py"
+write_to = "covid19_data_retrieval/_version.py"
 
 
